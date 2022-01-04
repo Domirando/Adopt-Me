@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "dev": "parcel src/index.html",
+    "dev": "parcel source/test.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "keywords": [],
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
